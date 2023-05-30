@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h5>Employee Register</h5>
+    <Table border="1"  cellspacing="4">
+        <!-- The cell spacing like gives spaces between the border lines of the tables -->
+        <tr>
+            <th>Name</th>
+            <th>Job Title</th>
+            <th>Department</th>
+            <th>Leave Date</th>
+            <th width="100" height="100">Active</th>
+        </tr>
+        <tr>
+            <td>Steve Johns</td>
+            <td>Software developer</td>
+            <td>IT</td>
+            <td>2023/05/05</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Eric Hales</td>
+            <td>Accountant</td>
+            <td rowspan="2">Business</td> 
+            <!-- Rowspan is used to combine two or more columns in this case 2 columns -->
+            <td>2023/06/05</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Mary Green</td>
+            <td>Marketer</td>          
+            <td>2024/05/05</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Anne Joseph</td>
+            <td>Software Developer</td>
+            <td>IT</td>
+            <td>2023/09/05</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td colspan="2">Tom Jeremy</td>
+            <td colspan="3">CEO</td>
+        </tr>
+        <!-- Colspan is used to combine two or more rows in this case the 1st one 2 and then 3 -->
+        <tr>
+            <td colspan="2">Agnes Thomas</td>
+            <td colspan="3">Manager-ICT</td>
+        </tr>
+    </Table>
+</body>
+</html>
